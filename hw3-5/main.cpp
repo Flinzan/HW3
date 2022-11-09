@@ -132,7 +132,7 @@ void record(void) {
 //   //Use Acc data only
 //   roll = accAngleX;
 //   pitch = accAngleY;
-    printf("%f/%f/%f\n", yaw_avg, pitch_avg, yaw_avg);
+    printf("%f/%f/%f\n", yaw_avg, pitch_avg, roll_avg);
     printf("%f", playtime(pitch_avg));
 
 //printf("%f/%f/%f\n", yaw_sum, pitch_sum, yaw_sum);
